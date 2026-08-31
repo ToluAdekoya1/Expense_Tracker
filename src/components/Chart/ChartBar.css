@@ -1,0 +1,10 @@
+.chart-bar_inner{
+	border: 1px solid #3131317b;
+	background-color: #f9b8a2;
+	overflow: hidden;
+}
+.chart-bar_fill{
+	background-color: #fb4f16;
+	width: 100%;
+	transition: all 0.3s ease-out;
+}

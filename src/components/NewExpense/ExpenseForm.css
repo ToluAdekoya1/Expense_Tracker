@@ -1,0 +1,38 @@
+form, .expense_form-noShow {
+  background-color: #fb865f;
+  color: rgb(19, 18, 18);
+}
+.expense_form-noShow{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+}
+label {
+  font-weight: 700;
+}
+.expense_form-button{
+  display: flex;
+  gap: 3%;
+}
+.active,
+.cancel, .active2 {
+  font-weight: 400;
+  background-color: #fb4f16;
+  border-radius: 10px;
+  padding: 10px;
+  width: 8rem;
+  color: #e0e0e0;
+  cursor: pointer;
+}
+.active2{
+  width: 10rem;
+}
+.active:hover, .cancel:hover,.active2:hover {
+  background-color: #fb4f16b1;
+}
